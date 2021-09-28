@@ -7,7 +7,7 @@
 
 * A aplicação deve fazer uma requisição para a API de produtos que se encontra na seguinte URL: ```https://portal.hml.b2bstack.com.br/api/v1/products``` 
 * A respota da API será um Array no formato JSON:
-Onde, `name` é o nome do produto, `average_note` é om NPS do produto, `reviews_counter` é a quantidade de avaliações que o produto recebeu, `rating` é a nota média dada pelo algoritimo B2B Stack e `imagePath` é a url da imagem do logo do produto.
+Onde, `name` é o nome do produto, `average_note` é o NPS do produto, `reviews_counter` é a quantidade de avaliações que o produto recebeu, `rating` é a nota média dada pelo algoritimo B2B Stack e `imagePath` é a url da imagem do logo do produto.
 ```
 [
   {
@@ -20,7 +20,7 @@ Onde, `name` é o nome do produto, `average_note` é om NPS do produto, `reviews
 ]
 ```
 A API suporta paginação, onde vc deve enviar o parametro page e o número da página.(Itens por pagina default = 5)
-Caso o parametro page não seja emnviado, a API retorna um ARRAY com 30 elementos:
+Caso o parametro page não seja enviado, a API retorna um ARRAY com 30 elementos:
 
 ## Execução e entrega
 Você deve enviar o código em um repositório GIT de sua preferência. Você precisa incluir um arquivo README explicando como devemos fazer para executar o seu código.
